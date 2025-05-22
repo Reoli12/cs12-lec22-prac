@@ -42,7 +42,7 @@ Node *get_recursive(LinkedList *list, int idx) {
 
 Node *get_next_node(Node *node, int target_idx, int curr_idx) {
 
-    if (node == NULL) {
+    if (node == NULL) { // NULL compares t pointer
         return NULL;
     }
 
